@@ -1,2 +1,5 @@
 import streamlit as st
-st.markdown("Hello, Friend.")
+import streamlit.components.v1 as components
+
+# embed streamlit docs in a streamlit app
+components.iframe("https://storyprep.vercel.app/", height=862)

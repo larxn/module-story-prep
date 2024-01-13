@@ -1,6 +1,7 @@
 [theme]
 base="light"
-primaryColor="#356dff"
+backgroundColor="#26221f"
+textColor="#FFF"
 
 [ui]
 hideSidebarNav=true
