@@ -1,7 +1,5 @@
 [theme]
 base="light"
-backgroundColor="#26221f"
-textColor="#FFF"
 
 [ui]
 hideSidebarNav=true
