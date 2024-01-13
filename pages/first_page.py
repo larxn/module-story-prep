@@ -8,4 +8,4 @@ with open('style.css') as f:
 
 # Application.
 api_key = os.environ['CLARIFAI_PAT'] 
-components.iframe("https://storyprep.vercel.app/?api_key={api_key}", scrolling=True)
+components.iframe(f"https://storyprep.vercel.app/?api_key={api_key}", scrolling=True)
