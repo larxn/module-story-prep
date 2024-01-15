@@ -1,16 +1,19 @@
-![Clarifai logo](https://www.clarifai.com/hs-fs/hubfs/logo/Clarifai/clarifai-740x150.png?width=240)
+[![openai-tts-1](https://clarifai.com/api/openai/tts/models/openai-tts-1/badge)](https://clarifai.com/openai/tts/models/openai-tts-1)
+[![openai-gpt-4-turbo](https://clarifai.com/api/openai/tts/models/openai-gpt-4-turbo/badge)](https://clarifai.com/openai/tts/models/openai-gpt-4-turbo)
 
-# Clarifai App Module Template
+[![Story prep: Generate short ad-hoc English lessons for your next read](docs/img/cover.svg)](LICENSE)
 
-This is a template repository to make it easy to get started creating a UI module with Clarifai.
+## Intro
 
+What if you could learn another language by reading your favorite authors? And I don't talk about just reading them with a dictionary at hand. I mean lessons that teach just the necessary for you to enjoy that particular story 🗝🚪.
 
-## To use this repo
+## Features
 
-1. Click the "Use this template" green button on github to make a repo from this repo template and give it a name of the format module-{XYZ} filling in the XYZ portion.
-2. Clone the new repo as normal to your development environment.
-3. `pip install -r requirements.txt` to make sure you have all the Python packages installed. Add any new packages to this requirements.txt file that you add during development.
-4. Update the README.md to capture what your new module will do.
-5. Rename the pages/*.py files as you desire and start filling them in to implement your module.
-6. After you're tried things out locally, push your changes to github and get the git commit URL from there in order to create a module in Clarifai.
-7. Go to any app you can create in within Clarifai, select Modules on the left and "Create Module" button, then follow the steps.
+- Generate custom vocabulary sheet based on any story you provide.
+- Generate a companion audio lesson.
+- Download lesson as PDF.
+- Download lesson as audio.
+
+## Setup
+
+Just make sure you set the `CLARIFAI_PAT` env var. [Here](https://docs.clarifai.com/clarifai-basics/authentication/personal-access-tokens/) is how you can get a Personal Access Token (PAT).
