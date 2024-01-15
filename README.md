@@ -1,7 +1,7 @@
 [![openai-tts-1](https://clarifai.com/api/openai/tts/models/openai-tts-1/badge)](https://clarifai.com/openai/tts/models/openai-tts-1)
 [![openai-gpt-4-turbo](https://clarifai.com/api/openai/tts/models/openai-gpt-4-turbo/badge)](https://clarifai.com/openai/tts/models/openai-gpt-4-turbo)
 
-[![Story prep: Generate short ad-hoc English lessons for your next read](docs/img/cover.svg)](LICENSE)
+![Story prep: Generate short ad-hoc English lessons for your next read](https://raw.githubusercontent.com/luvejo/module-story-prep/main/docs/img/cover.svg)
 
 ## Intro
 
@@ -17,3 +17,5 @@ What if you could learn another language by reading your favorite authors? And I
 ## Setup
 
 Just make sure you set the `CLARIFAI_PAT` env var. [Here](https://docs.clarifai.com/clarifai-basics/authentication/personal-access-tokens/) is how you can get a Personal Access Token (PAT).
+
+Happy learning ✨!
